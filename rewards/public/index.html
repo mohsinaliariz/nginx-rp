@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Web site created using create-react-app" />
+        <title>React App</title>
+        <style>
+            @font-face {
+                font-family: 'CiscoSans';
+                src: url(./fonts/CiscoSansTTMedium.ttf) format('truetype');
+                font-weight: lighter;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'CiscoSans';
+                src: url(./fonts/CiscoSansTTRegular.woff) format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'CiscoSans';
+                src: url(./fonts/CiscoSansBold.woff) format('woff');
+                font-weight: bold;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'CiscoSans';
+                src: url(./fonts/CiscoSansTTHeavy.ttf) format('truetype');
+                font-weight: 800;
+                font-style: normal;
+            }
+
+            body {
+                font-family: 'CiscoSans', sans-serif;
+            }
+
+            #rewardpicker {
+                width: calc(100vw - 120px);
+                height: calc(100vh - 120px);
+            }
+            @media (max-width: 500px) {
+                #rewardpicker {
+                    width: 100vw;
+                    height: 100vh;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <script src="configuration.js"></script>
+        <div id="root">
+            <div id="rewardpicker"></div>
+        </div>
+    </body>
+</html>
