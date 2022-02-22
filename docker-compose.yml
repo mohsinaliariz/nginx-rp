@@ -1,11 +1,11 @@
 version: '3'
 services:
-    reverse-proxy:
-        build: reverse-proxy
-        container_name: nginx-rp
-        ports:
-            - 443:443
-            - 80:80
+    # reverse-proxy:
+    #     build: reverse-proxy
+    #     container_name: nginx-rp
+    #     ports:
+    #         - 443:443
+    #         - 80:80
 
     cc-apps-experiences:
         build: experiences
@@ -14,8 +14,18 @@ services:
             - 5004:5004
 
 
-    cc-apps-rewards:
-        build: rewards
-        container_name: rewards123
+    # cc-apps-rewards:
+    #     build: rewards
+    #     container_name: rewards123
+    #     ports:
+    #         - "5002:5002"
+    app:
+        image: 'jc21/nginx-proxy-manager:latest'
+        restart: unless-stopped
         ports:
-            - "5002:5002"
+        - '80:80'
+        - '81:81'
+        - '443:443'
+        volumes:
+        - ./data:/data
+        - ./letsencrypt:/etc/letsencrypt

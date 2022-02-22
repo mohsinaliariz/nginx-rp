@@ -1,0 +1,37 @@
+2022/02/17 14:57:32 [error] 313#313: *48 open() "/var/www/html/databricks" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /databricks HTTP/1.1", host: "35.193.130.233"
+2022/02/17 14:57:40 [error] 313#313: *48 open() "/var/www/html/databricks" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /databricks HTTP/1.1", host: "35.193.130.233"
+2022/02/17 15:07:49 [warn] 229#229: server name "http://35.193.130.233/" has suspicious symbols in /data/nginx/proxy_host/1.conf:15
+2022/02/17 15:08:53 [warn] 229#229: server name "35.193.130.233/" has suspicious symbols in /data/nginx/proxy_host/1.conf:15
+2022/02/17 15:09:12 [error] 335#335: *111 open() "/var/www/html/databricks" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /databricks HTTP/1.1", host: "35.193.130.233"
+2022/02/17 15:10:11 [warn] 229#229: server name "http://35.193.130.233/test" has suspicious symbols in /data/nginx/proxy_host/1.conf:15
+2022/02/17 15:10:24 [error] 346#346: *120 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233"
+2022/02/17 15:10:49 [warn] 229#229: server name "http://35.193.130.233/test" has suspicious symbols in /data/nginx/proxy_host/1.conf:15
+2022/02/17 15:10:57 [error] 346#346: *121 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233"
+2022/02/17 15:10:59 [error] 357#357: *131 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233"
+2022/02/17 15:11:05 [error] 357#357: *131 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233"
+2022/02/17 15:11:06 [error] 357#357: *131 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233"
+2022/02/17 15:11:06 [error] 357#357: *131 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233"
+2022/02/17 15:12:11 [warn] 229#229: server name "35.193.130.233/test" has suspicious symbols in /data/nginx/proxy_host/1.conf:15
+2022/02/17 15:12:14 [error] 368#368: *146 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233", referrer: "http://35.193.130.233:81/"
+2022/02/17 15:12:24 [error] 368#368: *146 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233", referrer: "http://35.193.130.233:81/"
+2022/02/17 15:12:25 [error] 368#368: *146 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233", referrer: "http://35.193.130.233:81/"
+2022/02/17 15:12:26 [error] 368#368: *146 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233", referrer: "http://35.193.130.233:81/"
+2022/02/17 15:12:26 [error] 368#368: *146 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233", referrer: "http://35.193.130.233:81/"
+2022/02/17 15:12:27 [error] 368#368: *146 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233", referrer: "http://35.193.130.233:81/"
+2022/02/17 15:14:47 [warn] 229#229: server name "35.193.130.233/test" has suspicious symbols in /data/nginx/proxy_host/1.conf:15
+2022/02/17 15:14:50 [error] 379#379: *163 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233", referrer: "http://35.193.130.233:81/"
+2022/02/17 15:16:33 [warn] 229#229: server name "35.193.130.233/test" has suspicious symbols in /data/nginx/proxy_host/1.conf:15
+2022/02/17 15:16:35 [error] 390#390: *178 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233", referrer: "http://35.193.130.233:81/"
+2022/02/17 15:17:21 [warn] 229#229: server name "35.193.130.233/test" has suspicious symbols in /data/nginx/proxy_host/1.conf:15
+2022/02/17 15:17:23 [error] 401#401: *186 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233", referrer: "http://35.193.130.233:81/"
+2022/02/17 15:21:33 [warn] 229#229: server name "35.193.130.233/test" has suspicious symbols in /data/nginx/proxy_host/1.conf:15
+2022/02/17 15:21:33 [warn] 229#229: server name "http://35.193.130.233/test" has suspicious symbols in /data/nginx/redirection_host/1.conf:11
+2022/02/17 15:21:55 [warn] 229#229: server name "http://35.193.130.233/test" has suspicious symbols in /data/nginx/redirection_host/1.conf:11
+2022/02/17 15:22:51 [warn] 229#229: server name "35.193.130.233/test" has suspicious symbols in /data/nginx/redirection_host/1.conf:11
+2022/02/17 15:22:56 [error] 430#430: *232 open() "/var/www/html/test" failed (2: No such file or directory), client: 206.84.148.3, server: localhost-nginx-proxy-manager, request: "GET /test HTTP/1.1", host: "35.193.130.233", referrer: "http://35.193.130.233:81/"
+2022/02/17 15:24:06 [warn] 229#229: server name "35.193.130.233/test" has suspicious symbols in /data/nginx/redirection_host/1.conf:11
+2022/02/17 16:08:45 [warn] 229#229: server name "35.193.130.233/data" has suspicious symbols in /data/nginx/proxy_host/3.conf:15
+2022/02/17 16:10:45 [warn] 229#229: server name "35.193.130.233/data" has suspicious symbols in /data/nginx/proxy_host/3.conf:15
+2022/02/17 16:12:11 [warn] 229#229: server name "35.193.130.233/data" has suspicious symbols in /data/nginx/proxy_host/3.conf:15
+2022/02/17 16:13:14 [warn] 229#229: server name "35.193.130.233/data" has suspicious symbols in /data/nginx/proxy_host/3.conf:15
+2022/02/22 07:57:48 [warn] 230#230: server name "35.239.37.212/autodesk" has suspicious symbols in /data/nginx/proxy_host/4.conf:15
